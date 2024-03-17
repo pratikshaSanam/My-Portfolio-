@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -48,38 +48,38 @@ const experience = () => {
             <article className='experiences_detailes'>
             <FaHtml5 />
             
-            <h4>HTML</h4>
+            <h5>HTML</h5>
             
             </article>
             <article className='experiences_detailes'>
             <RiJavascriptFill />
-            <h4>JAVASCRIPT</h4>
+            <h5>JAVASCRIPT</h5>
             </article>
             <article className='experiences_detailes'>
             < FaCss3Alt/>
-            <h4>CSS</h4>
+            <h5>CSS</h5>
             </article>
             <article className='experiences_detailes'>
             <SiJquery />
-            <h4>JQEARY</h4>
+            <h5>JQEARY</h5>
             </article>
             <article className='experiences_detailes'>
             <FaBootstrap/>
-            <h4>BOOSTRAP</h4>
+            <h5>BOOSTRAP</h5>
             </article>
             <article className='experiences_detailes'>
             <SiTypescript/>
-            <h4>TYPESCRIPT</h4>
+            <h5>TYPESCRIPT</h5>
             </article>
             <article className='experiences_detailes'>
             <FaReact/>
-            <h4>REACT JS</h4>
+            <h5>REACT JS</h5>
             </article>
             <article className='experiences_detailes'>
             <IoLogoAngular />
 
 
-            <h4>ANGULAR</h4>
+            <h5>ANGULAR</h5>
             </article>
 
           </div>
@@ -90,27 +90,27 @@ const experience = () => {
         <div className="experiences_content">
             <article className='experiences_detailes'>
             <FaJava />
-            <h4>JAVA</h4>
+            <h5>JAVA</h5>
             </article>
             <article className='experiences_detailes'>
             <SiSpring/>
-            <h4>SPRING FRAMWORKS</h4>
+            <h5>SPRING FRAMWORKS</h5>
             </article>
             <article className='experiences_detailes'>
             <SiSpringboot/>
-            <h4>SPRING BOOT</h4>
+            <h5>SQL</h5>
             </article>
             <article className='experiences_detailes'>
             <AiOutlineConsoleSql/>
-            <h4>SQL</h4>
+            <h5>SPRING BOOT</h5>
             </article>
             <article className='experiences_detailes'>
             < SiMysql />
-            <h4>MySQL</h4>
+            <h5>MySQL</h5>
             </article>
             <article className='experiences_detailes'>
             <SiFirebase />
-            <h4>FIREBASE</h4>
+            <h5>FIREBASE</h5>
             </article>
            
 
