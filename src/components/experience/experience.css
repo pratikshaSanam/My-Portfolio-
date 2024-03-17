@@ -1,0 +1,93 @@
+
+section{
+    text-align: center;
+}
+
+
+
+
+
+
+.experience__contenet p{
+margin: 2rem 0 2.6rem;
+color: var(--color-light);
+}
+
+.experiences_container{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experiences_container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experiences_container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.experiences_container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experiences_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+
+}
+.experiences_detailes{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .experience__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .experience__contenet p{
+    margin: 1 rem 0.1rem;
+  }
+  .experiences_container{
+    grid-template-columns: 1fr;
+   
+  }
+  .experiences_container  > div{
+      width:80% ;
+      padding: 2rem;
+    margin: 0 auto;
+  }
+  .experiences_content{
+      padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .experience__contenet{
+        text-align: center;
+    }
+    .experience__contenet p{
+        margin: 1.5rem 0;
+    }
+    .experiences_container{
+        gap: 1rem;
+     }
+     .experiences_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+     }
+   
+}
